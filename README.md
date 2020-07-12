@@ -19,4 +19,4 @@
  - **Ask me about:** Anything! I'm happy to help :v:
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks 
  
-![Amelia Alice's github stats](https://github-readme-stats.vercel.app/api?username=amycardoso&hide=["issues","contribs"]&show_icons=true&hide_border=true)
+![Amelia Alice's github stats](https://github-readme-stats.vercel.app/api?username=amycardoso&hide=["contribs"]&show_icons=true&hide_border=true)
