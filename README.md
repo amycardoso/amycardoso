@@ -10,9 +10,16 @@
   </sup>
 </h2>
 
-<img align='right' src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300"'>
+<h3 align="right"><img src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300'><br/>
+  <sup>
+    <br/>
+    Animation by
+     <a href="https://www.linkedin.com/in/amelia-alice" target="_blank">Daniela Serpa
+     </a>
+  </sup>
+</h3>
 
- - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
+- **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
  - **Learning:** Angular | AWS | Microservices | Improving knowledge in technologies that I already know and use daily
  - **Hobbies:** Books | Music | TV Shows | Travel
  - **Ask me about:** Anything! I'm happy to help :v:
