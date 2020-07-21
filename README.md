@@ -10,7 +10,7 @@
   </sup>
 </h2>
 
-<img align='right' src='https://miro.medium.com/max/700/1*qdAW1TjCN57h1lbuuzvchg.gif' width='200"'>
+<img align='right' src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300"'>
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
  - **Learning:** Angular | AWS :cloud: | Microservices | Improving knowledge in technologies that I already know and use daily
