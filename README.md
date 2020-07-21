@@ -2,10 +2,10 @@
   <sup>
     <br/>
      <a href="https://www.linkedin.com/in/amelia-alice" target="_blank">
-      <img alt="LinkedIn Badge" src="https://img.shields.io/badge/-Linkedin-blue?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amelia-alice"/>
+      <img alt="LinkedIn Badge" src="https://img.shields.io/badge/-Linkedin-F2A516?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amelia-alice"/>
      </a>
     <a href="mailto:ameliaalicec@gmail.com" target="_blank">
-      <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-c14438?logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
+      <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-F2A516?logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
     </a>
   </sup>
 </h2>
