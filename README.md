@@ -10,10 +10,8 @@
   </sup>
 </h2>
 
-<img align="right" src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300'>
-<!--  Animation by
-     <a href="https://www.linkedin.com/in/amelia-alice" target="_blank">Daniela Serpa
-     </a> -->
+<a href="https://dribbble.com/shots/4789906-Hi"> <img align="right" src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300'>
+<a/>
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
  - **Learning:** Angular | AWS | Microservices | Improving knowledge in technologies that I already know and use daily
