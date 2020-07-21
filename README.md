@@ -7,7 +7,6 @@
     <a href="mailto:ameliaalicec@gmail.com" target="_blank">
       <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-c14438?logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
     </a>
-      <img alt="Visitors Badge" src="https://visitor-badge.glitch.me/badge?page_id=amycardoso.amycardoso"/>
   </sup>
 </h2>
 
