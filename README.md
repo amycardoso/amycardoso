@@ -7,8 +7,14 @@
     <a href="mailto:ameliaalicec@gmail.com" target="_blank">
       <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-F2A516?logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
     </a>
+    <a href="https://github.com/antonkomarev/github-profile-views-counter">
+      <img src="https://komarev.com/ghpvc/?username=amycardoso&color=F2A516">
+    </a>
   </sup>
 </h2>
+
+> "Programming isn't about what you know; it's about what you can figure out.” - Chris Pine
+
 
 <a href="https://dribbble.com/shots/4789906-Hi"> <img align="right" src='https://github.com/amycardoso/amycardoso/blob/master/girl.gif' width='300'>
 <a/>
