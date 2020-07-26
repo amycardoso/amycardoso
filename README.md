@@ -10,7 +10,7 @@
   </sup>
 </h2>
 
-<a href="https://dribbble.com/shots/4789906-Hi"> <img align="right" src='https://im7.ezgif.com/tmp/ezgif-7-b4553dbd832d.gif' width='300'>
+<a href="https://dribbble.com/shots/4789906-Hi"> <img align="right" src='https://github.com/amycardoso/amycardoso/blob/master/girl.gif' width='300'>
 <a/>
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
