@@ -20,7 +20,7 @@
 <a/>
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
- - **Learning:** Angular | AWS | Microservices | Improving knowledge in technologies that I already know and use daily
+ - **Learning:** AWS | Microservices | Flutter | Improving knowledge in technologies that I already know and use daily
  - **Hobbies:** Books | Music | TV Shows | Travel
  - **Ask me about:** Anything! I'm happy to help :v:
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks 
