@@ -25,4 +25,6 @@
  - **Ask me about:** Anything! I'm happy to help :v:
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks 
  
-![Amelia Alice's github stats](https://github-readme-stats.vercel.app/api?username=amycardoso&count_private=true&hide=contribs&show_icons=true&hide_border=true&icon_color=F2A516&text_color=222126&title_color=F2A516)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=amycardoso&count_private=true&hide_title=true&hide=contribs&bg_color=0d1117&title_color=fdca49&text_color=fdca49" />
+</a>
