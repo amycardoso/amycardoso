@@ -28,3 +28,8 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=amycardoso&count_private=true&hide_title=true&hide=contribs&bg_color=0d1117&title_color=fdca49&text_color=fdca49" />
 </a>
+<!---
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css&langs_count=10&layout=compact&bg_color=0d1117&title_color=fdca49&text_color=fdca49&hide_title=true&count_private=true" />
+</a>
+--->
