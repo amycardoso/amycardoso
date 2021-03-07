@@ -19,7 +19,7 @@
 <a href="https://dribbble.com/shots/4789906-Hi"> <img align="right" src='https://github.com/amycardoso/amycardoso/blob/master/girl.gif' width='300'>
 <a/>
 
- - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
+ - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time @reformasimples
  - **Learning:** Microservices | Flutter | Improving knowledge in technologies that I already know and use daily
  - **Education:** Bachelor's Degree in Information Systems (2019)
  - **Hobbies:** Books | Music | TV Shows | Travel
