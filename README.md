@@ -21,6 +21,7 @@
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
  - **Learning:** Microservices | Flutter | Improving knowledge in technologies that I already know and use daily
+ - **Education:** Bachelor's Degree in Information Systems
  - **Hobbies:** Books | Music | TV Shows | Travel
  - **Ask me about:** Anything! I'm happy to help :v:
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks 
