@@ -7,6 +7,9 @@
     <a href="mailto:ameliaalicec@gmail.com" target="_blank">
       <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-F2A516?logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
     </a>
+    <a href="https://www.linkedin.com/in/amelia-alice" target="_blank">
+      <img alt="Spotify Badge" src="https://img.shields.io/badge/-Spotify-F2A516?logo=Spotify&logoColor=white&link=https://open.spotify.com/user/amy_cardoso"/>
+     </a>
     <a href="https://github.com/antonkomarev/github-profile-views-counter">
       <img src="https://komarev.com/ghpvc/?username=amycardoso&color=F2A516">
     </a>
@@ -29,6 +32,9 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=amycardoso&count_private=true&hide_title=true&hide=contribs&bg_color=0d1117&title_color=fdca49&text_color=fdca49" />
 </a>
+
+### 🚀 Skills
+![Java](https://img.shields.io/badge/-Java-007396?&style=for-the-badge&logo=java&logoColor=white)![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)![MongoDB](https://img.shields.io/badge/-MongoDB-white?&style=for-the-badge&logo=mongodb&logoColor=47A248)![MySQL](https://img.shields.io/badge/-MySQL-4479A1?&style=for-the-badge&logo=mysql&logoColor=white)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 <!---
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css&langs_count=10&layout=compact&bg_color=0d1117&title_color=fdca49&text_color=fdca49&hide_title=true&count_private=true" />
