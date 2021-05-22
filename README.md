@@ -20,7 +20,7 @@
 <a/>
 
  - **Working:** Back-end developer at Action Labs & Mobile Developer in my spare time
- - **Learning:** Microservices | Flutter | Improving knowledge in technologies that I already know and use daily
+ - **Learning:** Microservices | Clean Code | Design patterns | Improving knowledge in technologies that I already know and use daily
  - **Education:** Bachelor's Degree in Information Systems (2019)
  - **Hobbies:** Books | Music | TV Shows | Travel
  - **Ask me about:** Anything! I'm happy to help :v:
