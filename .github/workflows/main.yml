@@ -9,9 +9,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - run: mkdir dist
-      - uses: Platane/snk@master
-        id: snake-gif
+      - uses: Platane/snk@v0.0.18
         with:
           github_user_name: amycardoso
-          gif_out_path: dist/github-contribution-grid-snake.gif
