@@ -1,9 +1,7 @@
 name: generate animation
-
-on:
+on: 
   schedule:
-      # every 12 hours
-    - cron: "*/5 * * * *"
+  - cron: '*/5 * * * *'
 
 jobs:
   generate:
@@ -12,3 +10,4 @@ jobs:
       - uses: Platane/snk@v0.0.18
         with:
           github_user_name: amycardoso
+          svg_out_path: dist/github-contribution-grid-snake.svg
