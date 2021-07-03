@@ -18,7 +18,7 @@
 
  ### About me
 
- - **Working:** Back-end developer at [Action Labs](https://www.actionlabs.com.br) & Mobile Developer in my spare time
+ - **Working:** Back-end developer at [Action Labs](https://www.actionlabs.com.br)
  - **Learning:** Microservices | Design patterns | Improving knowledge in technologies that I already know and use daily
  - **Education:** Bachelor's Degree in Information Systems (2019)
  - **Hobbies:** Books | Music | TV Shows | Travel
