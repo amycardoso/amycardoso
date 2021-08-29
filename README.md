@@ -7,7 +7,7 @@
     <a href="mailto:ameliaalicec@gmail.com" target="_blank">
       <img alt="Gmail Badge" src="https://img.shields.io/badge/-Gmail-purple?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ameliaalicec@gmail.com"/>
     </a>
-    <a href="https://www.linkedin.com/in/amelia-alice" target="_blank">
+    <a href="https://open.spotify.com/user/amy_cardoso" target="_blank">
       <img alt="Spotify Badge" src="https://img.shields.io/badge/-Spotify-purple?style=flat-square&logo=Spotify&logoColor=white&link=https://open.spotify.com/user/amy_cardoso"/>
      </a>
     <a href="https://github.com/antonkomarev/github-profile-views-counter">
