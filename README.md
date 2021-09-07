@@ -19,7 +19,7 @@
  ### About me
 
  - **Working:** Backend developer at [Action Labs](https://www.actionlabs.com.br)
- - **Learning:** Microservices | Design patterns | Improving knowledge in technologies that I already know and use daily
+ - **Learning:** Kotlin | Microservices | Design patterns | Improving knowledge in technologies that I already know and use daily
  - **Education:** Bachelor's Degree in Information Systems (2019)
  - **Hobbies:** Books | TV Shows | Travel
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks 
