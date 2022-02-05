@@ -21,7 +21,7 @@
  ### About me
 
  - **Working:** Backend developer at [Action Labs](https://www.actionlabs.com.br)
- - **Learning:** Kotlin | Microservices | Design patterns
+ - **Learning:** Kotlin | Microservices
  - **Education:** B.S in Information Systems (2019)
  - **Hobbies:** Reading | Generative Art & Creative Coding | Travel
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks
@@ -33,6 +33,7 @@
 ![Gradle](https://img.shields.io/badge/-Gradle-purple?style=flat-square&logo=gradle&logoColor=white)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-purple?style=flat-square&logo=mongodb&logoColor=white)&nbsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-purple?style=flat-square&logo=mysql&logoColor=white)&nbsp;
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-purple?style=flat-square&logo=postgresql&logoColor=white)&nbsp;
 ![Codeship](https://img.shields.io/badge/Codeship-purple?style=flat-square&logo=codeship&logoColor=white)&nbsp;
 ![AWS](https://img.shields.io/badge/Amazon_AWS-purple?style=flat-square&logo=amazon-aws&logoColor=white)&nbsp;
 ![Heroku](https://img.shields.io/badge/Heroku-purple?style=flat-square&logo=heroku&logoColor=white)&nbsp;
