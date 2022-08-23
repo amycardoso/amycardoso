@@ -23,7 +23,7 @@
  - **Working:** Backend developer at [Action Labs](https://www.actionlabs.com.br)
  - **Learning:** Kotlin | Architectural patterns | Design and development principles
  - **Education:** B.S in Information Systems (2019)
- - **Hobbies:** Reading | Traveling | (trying to) Play guitar | Studying computer simulations of natural systems
+ - **Hobbies:** Reading | Traveling | Trying to play guitar | Studying computer simulations of natural systems
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks
  
  ### Languages & Tools
