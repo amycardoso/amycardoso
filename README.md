@@ -37,6 +37,7 @@
 ![Codeship](https://img.shields.io/badge/Codeship-004466?style=flat-square&logo=codeship&logoColor=white)&nbsp;
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)&nbsp;
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)&nbsp;
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white)&nbsp;
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)&nbsp;
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white)&nbsp;
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-%23FF6600.svg?&style=flat-square&logo=rabbitmq&logoColor=white)&nbsp;
