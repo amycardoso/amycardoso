@@ -26,7 +26,7 @@
  - **Hobbies:** Reading | Traveling | Trying to play guitar | Studying computer simulations of natural systems
  - **Fun fact:**  Maybe a little obsessed with instrumental soundtracks
  
- ### Languages & Tools
+ ### Techs
 
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)&nbsp;
 ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)&nbsp;
