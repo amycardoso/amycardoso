@@ -74,9 +74,14 @@
         src="https://img.shields.io/badge/Algorand-000000?style=flat-square&logo=algorand&logoColor=white"></a>
 </p>
 
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&langs_count=6&layout=compact&hide_title=true&count_private=true&theme=radical" />
+</a>
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center"
+        src="https://github-readme-stats.vercel.app/api?username=amycardoso&show_icons=true&hide_title=true&count_private=true&line_height=20&theme=radical" />
 </a>
 
 <!--- 
