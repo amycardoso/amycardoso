@@ -79,11 +79,6 @@
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&langs_count=6&layout=compact&hide_title=true&count_private=true&theme=radical" />
 </a>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center"
-        src="https://github-readme-stats.vercel.app/api?username=amycardoso&show_icons=true&hide_title=true&count_private=true&line_height=20&theme=radical" />
-</a>
-
 <!--- 
  ### Activity
 ![github contribution grid snake animation](https://raw.githubusercontent.com/amycardoso/amycardoso/output/github-contribution-grid-snake.svg)
