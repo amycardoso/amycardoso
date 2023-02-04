@@ -76,7 +76,7 @@
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center"
-        src="https://github-readme-stats-ruby-one.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&langs_count=5&layout=compact&hide_title=true&count_private=true&theme=radical" />
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&langs_count=5&layout=compact&hide_title=true&count_private=true&theme=radical" />
 </a>
 
 <!--- 
