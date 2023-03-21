@@ -17,11 +17,10 @@
 <h3>About me</h3>
 
 <ul>
-    <li><b>Working:</b> Backend developer at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
-    <li><b>Learning:</b> Architectural patterns | Design and development principles</li>
+    <li><b>Working:</b> Co-Owner & Backend developer at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
+    <li><b>Learning:</b> Deep Learning | AWS Services (DevOps)</li>
     <li><b>Education:</b> B.S in Information Systems (2019)</li>
-    <li><b>Hobbies:</b> Reading | Traveling | Trying to play guitar | Studying computer simulations of natural systems
-    </li>
+    <li><b>Hobbies:</b> Reading | Play guitar | Watch TV Shows and Movies </li>
     <li><b>Fun fact:</b> Maybe a little obsessed with instrumental soundtracks</li>
 </ul>
 
