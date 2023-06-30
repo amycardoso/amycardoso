@@ -48,6 +48,9 @@
 <a href="#" alt="AWS">
     <img alt="AWS"
         src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"></a>
+<a href="#" alt="Terraform">
+    <img alt="Terraform"
+        src="https://img.shields.io/badge/Terraform-7647a7?style=flat-square&logo=terraform&logoColor=white"></a>
 <a href="#" alt="Codeship">
     <img alt="Codeship"
         src="https://img.shields.io/badge/Codeship-004466?style=flat-square&logo=codeship&logoColor=white"></a>
