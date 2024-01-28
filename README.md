@@ -33,65 +33,61 @@
 
 <b>Frameworks</b>
 <br>
-<a href="#" alt="Spring">
+<a href="https://spring.io" alt="Spring">
     <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white"></a>
-<a href="#" alt="Hibernate">
+<a href="https://hibernate.org" alt="Hibernate">
     <img alt="Hibernate"
         src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white"></a>
-<a href="#" alt="Apache Cordova">
+<a href="https://cordova.apache.org" alt="Apache Cordova">
     <img alt="Apache Cordova"
         src="https://img.shields.io/badge/Apache Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black"></a>
-<a href="#" alt="Langchain">
+<a href="https://www.langchain.com" alt="Langchain">
     <img alt="🦜Langchain"
         src="https://img.shields.io/badge/🦜 LangChain-000000?style=flat&logo=langchain&logoColor=white"></a>
 
 <b>Databases</b>
 <br>
-<a href="#" alt="MySQL">
+<a href="https://www.mysql.com" alt="MySQL" target="_blank">
     <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white"></a>
-<a href="#" alt="MongoDB">
+<a href="https://www.mongodb.com" alt="MongoDB" target="_blank">
     <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"></a>
-<a href="#" alt="PostgreSQL">
-    <img alt="PostgreSQL"
-        src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white"></a>
-<a href="#" alt="Neo4j">
+<a href="https://www.postgresql.org" alt="PostgreSQL" target="_blank">
+    <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white"></a>
+<a href="https://neo4j.com" alt="Neo4j" target="_blank">
     <img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white"></a>
 <br>
 
 <b>Cloud & DevOps</b>
 <br>
-<a href="#" alt="AWS">
+<a href="https://aws.amazon.com" alt="AWS" target="_blank">
     <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white"></a>
-<a href="#" alt="Terraform">
-    <img alt="Terraform"
-        src="https://img.shields.io/badge/Terraform-7647a7?style=flat&logo=terraform&logoColor=white"></a>
-<a href="#" alt="Heroku">
+<a href="https://www.terraform.io" alt="Terraform" target="_blank">
+    <img alt="Terraform" src="https://img.shields.io/badge/Terraform-7647a7?style=flat&logo=terraform&logoColor=white"></a>
+<a href="https://www.heroku.com" alt="Heroku" target="_blank">
     <img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white"></a>
-<a href="#" alt="Vercel">
+<a href="https://vercel.com" alt="Vercel" target="_blank">
     <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white"></a>
-<a href="#" alt="Railway">
+<a href="https://railway.app" alt="Railway" target="_blank">
     <img alt="Railway" src="https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=Railway&logoColor=white"></a>
-<a href="#" alt="Docker">
+<a href="https://www.docker.com" alt="Docker" target="_blank">
     <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"></a>
-<a href="#" alt="Nginx">
+<a href="https://www.nginx.com" alt="Nginx" target="_blank">
     <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white"></a>
-<a href="#" alt="Cloudflare">
-    <img alt="Cloudflare"
-        src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white"></a>
+<a href="https://www.cloudflare.com" alt="Cloudflare" target="_blank">
+    <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white"></a>
 <br>
 
 <b>Observability</b>
 <br>
-<a href="#" alt="New Relic">
-    <img alt="New Relic"
-        src="https://img.shields.io/badge/New Relic-1CE783?style=flat&logo=newrelic&logoColor=white"></a>
-<a href="#" alt="Sentry">
+<a href="https://newrelic.com" alt="New Relic" target="_blank">
+    <img alt="New Relic" src="https://img.shields.io/badge/New Relic-1CE783?style=flat&logo=newrelic&logoColor=white"></a>
+<a href="https://sentry.io" alt="Sentry" target="_blank">
     <img alt="Sentry" src="https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white"></a>
 </p>
 
 <b>Blockchain</b>
 <br>
-<a href="#" alt="Algorand">
+<a href="https://algorandtechnologies.com" alt="Algorand" target="_blank">
     <img alt="Algorand" src="https://img.shields.io/badge/Algorand-000000?style=flat&logo=algorand&logoColor=white"></a>
 </p>
 
