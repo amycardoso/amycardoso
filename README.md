@@ -19,8 +19,8 @@
 <h3>About me</h3>
 
 <ul>
-    <li><b>Working:</b> Co-Owner & Backend developer at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
-    <li><b>Learning:</b> Deep Learning </li>
+    <li><b>Working:</b> Senior Backend Developer | Squad Leader | Partner at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
+<!--     <li><b>Learning:</b> Deep Learning </li> -->
     <li><b>Education:</b> B.S in Information Systems (2019)</li>
     <li><b>Hobbies:</b> Reading | Play guitar | Watch TV Shows and Movies </li>
     <li><b>Fun fact:</b> Obsessed with instrumental soundtracks</li>
