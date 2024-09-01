@@ -16,14 +16,14 @@
     </sup>
 --->
 
-<h3>About me</h3>
+<h3>About Me</h3>
 
 <ul>
-    <li><b>Working:</b> Senior Backend Developer | Squad Leader | Partner at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
-<!--     <li><b>Learning:</b> Deep Learning </li> -->
-    <li><b>Education:</b> B.S in Information Systems (2019)</li>
-    <li><b>Hobbies:</b> Reading | Play guitar | Watch TV Shows and Movies </li>
-    <li><b>Fun fact:</b> Obsessed with instrumental soundtracks</li>
+    <li><b>Role:</b> Senior Backend Developer | Squad Leader | Co-Owner at <a href="https://www.actionlabs.com.br">Action Labs</a></li>
+    <li><b>Education:</b> B.S. in Information Systems (2019)</li>
+    <li><b>Interests:</b> Backend Development | Leadership | Deep Learning | Continuous Learning</li>
+    <li><b>Hobbies:</b> Reading | Playing Guitar | Watching TV Shows and Movies</li>
+    <li><b>Fun Fact:</b> Passionate about instrumental soundtracks</li>
 </ul>
 
 </p>
