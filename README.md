@@ -28,6 +28,9 @@
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
 <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black" />
+    
+<br>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/🦜LangChain-000000?style=flat&logo=langchain&logoColor=white" />
 
 <br>
