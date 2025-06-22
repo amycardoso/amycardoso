@@ -25,21 +25,18 @@
 <h3>⚙️ Tech Stack</h3>
 
 <p>
-<b>🧩 Frameworks & Tools</b><br>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
 <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black" />
 <img src="https://img.shields.io/badge/🦜LangChain-000000?style=flat&logo=langchain&logoColor=white" />
 
 <br>
-<b>🗃️ Databases</b><br>
 <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white" />
 
 <br>
-<b>☁️ Cloud & DevOps</b><br>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Terraform-7647a7?style=flat&logo=terraform&logoColor=white" />
 <img src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white" />
@@ -50,7 +47,6 @@
 <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white" />
 
 <br>
-<b>📊 Observability</b><br>
 <img src="https://img.shields.io/badge/New%20Relic-1CE783?style=flat&logo=newrelic&logoColor=white" />
 <img src="https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white" />
 </p>
