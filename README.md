@@ -31,7 +31,8 @@
     
 <br>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/🦜LangChain-000000?style=flat&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Hugging Face-FFD21F?style=flat&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/OpenAI-16A180?style=flat&logo=openai&logoColor=white" />
 
 <br>
 <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
