@@ -26,13 +26,13 @@
 
 <p>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+<!-- <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=flat&logo=huggingface&logoColor=black" /> -->
 <img src="https://img.shields.io/badge/OpenAI-16A180?style=flat&logo=openai&logoColor=white" />
 
 <br>    
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
 <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache%20Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black" />
+<!-- <img src="https://img.shields.io/badge/Apache%20Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black" /> -->
 
 <br>
 <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
@@ -43,8 +43,8 @@
 <br>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Terraform-7647a7?style=flat&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white" />
+<!-- <img src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white" /> -->
+<!-- <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white" /> -->
 <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=Railway&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white" />
