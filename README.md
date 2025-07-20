@@ -14,7 +14,6 @@
 <h3>🧠 About Me</h3>
 
 <ul>
-    <li><strong>Role:</strong> Backend Developer & Tech Leader</li>
     <li><strong>Education:</strong> B.S. in Information Systems (2019)</li>
     <li><strong>AI Interests:</strong> Deep Learning, LLMs, Responsible AI</li>
     <li><strong>Hobbies:</strong> Reading | Playing Piano | Exploring Soundtracks</li>
