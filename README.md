@@ -1,72 +1,33 @@
-<!-- Banner illustration -->
-<img src="https://raw.githubusercontent.com/amycardoso/amycardoso/master/computer-illustration.png" width="400px" align="right" alt="Computer illustration">
-
-<!-- Greeting -->
-<h3>Hi there! 👋 I'm Amélia</h3>
-
-<p>
-    Senior Backend Developer · Squad Leader · Co-Owner at <a href="https://www.actionlabs.com.br" target="_blank">Action Labs</a><br>
-    Enthusiast of AI, Leadership, and Thoughtful Engineering.
+<h1 align="left">Hi 👋, I'm Amélia</h1>
+<p align="left">
+<img src="https://komarev.com/ghpvc/?username=amycardoso&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
 </p>
-
----
-
-<h3>🧠 About Me</h3>
-
+<h3>👩🏽‍💻 About Me</h3>
+I am a software developer with a journey rooted in backend engineering and growing into leadership and Artificial Intelligence.
 <ul>
-    <li><strong>Education:</strong> B.S. in Information Systems (2019)</li>
-    <li><strong>AI Interests:</strong> Deep Learning, LLMs, Responsible AI</li>
-    <li><strong>Hobbies:</strong> Reading | Playing Piano | Exploring Soundtracks</li>
+<li>💻 As a <strong>Senior Backend Developer</strong>, I have a strong foundation in architecting robust, scalable systems using Java and the Spring ecosystem.</li>
+<li>🌱 I am currently channeling my expertise into <strong>Artificial Intelligence</strong>, aiming to build innovative and responsible AI-driven solutions.</li>
+<li>🤝 In my role as a <strong>Squad Leader</strong>, I'm dedicated to mentoring developers and fostering a culture of technical excellence and continuous improvement.</li>
+<li>🎶 Outside of tech, I enjoy reading, playing the piano, and exploring soundtracks. I find balance by connecting with nature and paying attention to the present.</li>
 </ul>
-
----
-
-<h3>⚙️ Tech Stack</h3>
-
+<h3>🛠️ My Tech Stack</h3>
 <p>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
-<!-- <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=flat&logo=huggingface&logoColor=black" /> -->
-<img src="https://img.shields.io/badge/OpenAI-16A180?style=flat&logo=openai&logoColor=white" />
-
-<br>    
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" />
-<img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" />
-<!-- <img src="https://img.shields.io/badge/Apache%20Cordova-E8E8E8?style=flat&logo=apache-cordova&logoColor=black" /> -->
-
-<br>
-<img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white" />
-
-<br>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-7647a7?style=flat&logo=terraform&logoColor=white" />
-<!-- <img src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white" /> -->
-<!-- <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white" /> -->
-<img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=Railway&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white" />
-
-<br>
-<img src="https://img.shields.io/badge/New%20Relic-1CE783?style=flat&logo=newrelic&logoColor=white" />
-<img src="https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white" />
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
+<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
+<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
+<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
+<a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+<a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a>
+<a href="https.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a>
 </p>
-
----
-
-<h3>📜 Certifications</h3>
-
-<p>
-Explore some of my verified achievements on <a href="https://www.credly.com/users/amelia-alice-feitosa" target="_blank">Credly</a>.
+<p align="left">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&layout=compact&count_private=true&theme=radical" alt="top langs" />
+<br><br>
 </p>
-
----
-
-<h3>📈 GitHub Stats</h3>
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=amycardoso&hide=PLpgSQL,TSQL,html,css,scss,ruby,php&langs_count=5&layout=compact&hide_title=true&count_private=true&theme=radical" />
-</a>
