@@ -13,13 +13,13 @@ dev based in brazil.
 building backend (java/spring) & ai/ml by day.
 leading teams — the stressful, beautiful two sides of the same coin.
 
-![java](assets/badges/java.svg) ![spring](assets/badges/spring.svg) ![ai/ml](assets/badges/ai-ml.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/java.svg"><img src="assets/badges/java-light.svg" alt="java"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/spring.svg"><img src="assets/badges/spring-light.svg" alt="spring"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/ai-ml.svg"><img src="assets/badges/ai-ml-light.svg" alt="ai/ml"></picture>
 
 outside the terminal:
 piano keys, generative art, and the art of living.
 finding focus in books; i build for work, but i create for myself.
 
-![piano](assets/badges/piano.svg) ![generative art](assets/badges/generative-art.svg) ![books](assets/badges/books.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/piano.svg"><img src="assets/badges/piano-light.svg" alt="piano"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/generative-art.svg"><img src="assets/badges/generative-art-light.svg" alt="generative art"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/books.svg"><img src="assets/badges/books-light.svg" alt="books"></picture>
 
 · · · · · · · · · · · · ·
 
