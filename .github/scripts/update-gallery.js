@@ -15,8 +15,12 @@ async function main() {
   if (!res.ok) throw new Error(`Failed to fetch manifest: ${res.status}`);
   const sketches = await res.json();
 
+  // Manifest is { sketches: [...] } — extract the array
+  const list = Array.isArray(sketches) ? sketches : sketches.sketches;
+  if (!Array.isArray(list)) throw new Error('Unexpected manifest shape');
+
   // Sort by date descending, take top COUNT
-  const latest = sketches
+  const latest = list
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, COUNT);
 
