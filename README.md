@@ -19,7 +19,7 @@ outside the terminal:
 piano keys, generative art, and the art of living.
 finding focus in books; i build for work, but i create for myself.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/piano.svg"><img src="assets/badges/piano-light.svg" alt="piano"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/generative-art.svg"><img src="assets/badges/generative-art-light.svg" alt="generative art"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/books.svg"><img src="assets/badges/books-light.svg" alt="books"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/piano.svg"><img src="assets/badges/piano-light.svg" alt="piano"></picture> <a href="https://amycardoso.github.io/creative-coding-gallery/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/generative-art.svg"><img src="assets/badges/generative-art-light.svg" alt="generative art"></picture></a> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/books.svg"><img src="assets/badges/books-light.svg" alt="books"></picture>
 
 · · · · · · · · · · · · ·
 
