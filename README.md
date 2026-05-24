@@ -1,11 +1,4 @@
-```
- █████╗ ███╗   ███╗██╗   ██╗
-██╔══██╗████╗ ████║╚██╗ ██╔╝
-███████║██╔████╔██║ ╚████╔╝
-██╔══██║██║╚██╔╝██║  ╚██╔╝
-██║  ██║██║ ╚═╝ ██║   ██║
-╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/ascii-amy.svg"><img src="assets/ascii-amy-light.svg" alt="AMY" /></picture>
 
 · · · · · · · · · · · · ·
 
