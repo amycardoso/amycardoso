@@ -2,7 +2,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/ascii-amy.svg"><img src="assets/ascii-amy-light.svg" alt="AMY" /></picture>
 
-· · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
 
 dev based in brazil. <br>
 building backend (java/spring) & ai/ml by day. <br>
@@ -20,7 +20,7 @@ finding focus in books; i build for work, but i create for myself.
 <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/golden-dawn/golden-dawn.png" width="100" alt="golden dawn" /></a> <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/sediment/sediment.gif" width="100" alt="sediment" /></a> <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/crimson-dusk/crimson-dusk.png" width="100" alt="crimson dusk" /></a> <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/mineral-moon/mineral-moon.gif" width="100" alt="mineral moon" /></a> <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/abstract-chaos/abstract-chaos.png" width="100" alt="abstract chaos" /></a> <a href="https://amycardoso.github.io/creative-coding-gallery/"><img src="https://raw.githubusercontent.com/amycardoso/creative-coding/main/sketches/starry-swirl/starry-swirl.gif" width="100" alt="starry swirl" /></a>
 <!--GALLERY_END-->
 
-· · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=F72585&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for."><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=c2185b&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for." alt="the best code i write is the code nobody asked for." /></picture>
 
