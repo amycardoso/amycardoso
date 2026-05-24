@@ -22,6 +22,6 @@ finding focus in books; i build for work, but i create for myself.
 
 · · · · · · · · · · · · ·
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=F72585&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for."><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=c2185b&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for." alt="the best code i write is the code nobody asked for." /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=F72585&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for."><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=c2185b&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for." alt="the best code i write is the code nobody asked for." /></picture>
 
 </div>
