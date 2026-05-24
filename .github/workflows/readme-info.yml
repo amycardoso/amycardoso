@@ -1,0 +1,22 @@
+name: README Info
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # runs daily at midnight Sao Paulo time (UTC-3)
+  workflow_dispatch:       # lets you trigger it manually from the Actions tab
+
+jobs:
+  readme-info:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: th3c0d3br34ker/github-readme-info@master
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TIMEZONE: "America/Sao_Paulo"
+          SHOW_LINES_OF_CODE: false
+          SHOW_PROFILE_VIEWS: false
+          SHOW_DAILY_COMMIT: true
+          SHOW_WEEKLY_COMMIT: true
+          SHOW_LANGUAGE: true
+          SHOW_TOTAL_CONTRIBUTIONS: true
