@@ -22,6 +22,8 @@ finding focus in books; i build for work, but i create for myself.
 
 · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats/stats.svg"><img src="assets/stats/stats-light.svg" alt="commit hours, languages from the last 12 months and creative coding sketches" /></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=F72585&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for."><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=c2185b&center=true&random=false&width=580&lines=the+best+code+i+write+is+the+code+nobody+asked+for." alt="the best code i write is the code nobody asked for." /></picture>
 
 <a href="https://www.linkedin.com/in/amelia-alice/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/linkedin.svg"><img src="assets/badges/linkedin-light.svg" alt="linkedin"></picture></a>
