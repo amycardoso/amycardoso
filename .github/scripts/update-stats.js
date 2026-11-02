@@ -18,24 +18,55 @@ const THEMES = {
   light: { text: '#1f2328', muted: '#57606a', track: '#d0d7de', accents: ['#c2185b', '#5b21b6', '#0891b2'] },
 };
 
-async function gh(path) {
+async function gh(path, { allowMissing = false } = {}) {
   const res = await fetch(`https://api.github.com/${path}`, {
     headers: {
       Accept: 'application/vnd.github+json',
       ...(TOKEN && { Authorization: `Bearer ${TOKEN}` }),
     },
   });
+  // 403/404/409: repo not visible to this token, or empty repo
+  if (allowMissing && [403, 404, 409].includes(res.status)) return null;
   if (!res.ok) throw new Error(`GitHub API ${path}: ${res.status}`);
   return res.json();
 }
 
-// Commits from the last 12 months (search API caps at 1000 results)
+async function ghPages(path, opts) {
+  const items = [];
+  for (let page = 1; ; page++) {
+    const data = await gh(`${path}${path.includes('?') ? '&' : '?'}per_page=100&page=${page}`, opts);
+    if (!data) break;
+    items.push(...data);
+    if (data.length < 100) break;
+  }
+  return items;
+}
+
+// Commits from the last 12 months, as { date, repo }
 async function fetchCommits() {
-  const since = new Date(Date.now() - 365 * 864e5).toISOString().slice(0, 10);
+  const since = new Date(Date.now() - 365 * 864e5);
+  return process.env.GH_STATS_TOKEN ? commitsByRepo(since) : commitsBySearch(since);
+}
+
+// With a personal token: walk my repos one by one, so private ones count too
+// (commit search leaves private repos out for fine-grained tokens)
+async function commitsByRepo(since) {
+  const repos = (await ghPages('user/repos?affiliation=owner,collaborator,organization_member'))
+    .filter(r => !r.fork && new Date(r.pushed_at) >= since);
+  const commits = [];
+  for (const repo of repos) {
+    const list = await ghPages(`repos/${repo.full_name}/commits?author=${USER}&since=${since.toISOString()}`, { allowMissing: true });
+    for (const c of list) commits.push({ date: c.commit.author.date, repo: repo.full_name });
+  }
+  return commits;
+}
+
+// Without one: public commits via search (capped at 1000 results)
+async function commitsBySearch(since) {
   const commits = [];
   for (let page = 1; page <= 10; page++) {
-    const data = await gh(`search/commits?q=author:${USER}+author-date:>=${since}&sort=author-date&per_page=100&page=${page}`);
-    commits.push(...data.items);
+    const data = await gh(`search/commits?q=author:${USER}+author-date:>=${since.toISOString().slice(0, 10)}&sort=author-date&per_page=100&page=${page}`);
+    for (const c of data.items) commits.push({ date: c.commit.author.date, repo: c.repository.full_name });
     if (data.items.length < 100) break;
     await new Promise(r => setTimeout(r, 2500)); // stay under the search API's secondary rate limit
   }
@@ -45,20 +76,21 @@ async function fetchCommits() {
 function hourHistogram(commits) {
   const hours = new Array(24).fill(0);
   const fmt = new Intl.DateTimeFormat('en-US', { hour: 'numeric', hourCycle: 'h23', timeZone: TZ });
-  for (const c of commits) hours[Number(fmt.format(new Date(c.commit.author.date)))]++;
+  for (const c of commits) hours[Number(fmt.format(new Date(c.date)))]++;
   return hours;
 }
 
 // Each repo's language mix, weighted by how many of my commits landed there
 async function languageShares(commits) {
   const perRepo = {};
-  for (const c of commits) perRepo[c.repository.full_name] = (perRepo[c.repository.full_name] || 0) + 1;
+  for (const c of commits) perRepo[c.repo] = (perRepo[c.repo] || 0) + 1;
 
   const totals = {};
   for (const [repo, count] of Object.entries(perRepo)) {
     const langs = await gh(`repos/${repo}/languages`);
     const kept = Object.entries(langs).filter(([name]) => !IGNORED_LANGS.has(name));
     const bytes = kept.reduce((sum, [, b]) => sum + b, 0);
+    if (!bytes) continue;
     for (const [name, b] of kept) {
       const key = LANG_ALIASES[name] || name;
       totals[key] = (totals[key] || 0) + count * (b / bytes);
