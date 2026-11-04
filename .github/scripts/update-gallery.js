@@ -29,7 +29,7 @@ async function main() {
     .map(s => {
       const src = `${RAW_BASE}${s.media}`;
       const alt = s.title.toLowerCase();
-      return `<a href="${GALLERY_URL}"><img src="${src}" width="100" alt="${alt}" /></a>`;
+      return `<a href="${GALLERY_URL}"><img src="${src}" height="100" alt="${alt}" /></a>`;
     })
     .join(' ');
 
