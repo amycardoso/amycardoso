@@ -17,13 +17,16 @@ jobs:
           node-version: '20'
       - name: Update gallery section
         run: node .github/scripts/update-gallery.js
+      # The stats still update when the gallery step fails (it leaves the README alone).
       - name: Update stats card
+        if: ${{ !cancelled() }}
         run: node .github/scripts/update-stats.js
         env:
           # optional PAT so commits to private repos count too; falls back to public-only
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
       - name: Commit if changed
+        if: ${{ !cancelled() }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
