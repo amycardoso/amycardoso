@@ -24,6 +24,8 @@ jobs:
         env:
           # optional PAT so commits to private repos count too; falls back to public-only
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          # optional fine-grained PAT for the reformasimples org (Contents: read)
+          GH_STATS_ORG_TOKEN: ${{ secrets.GH_STATS_ORG_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
       - name: Commit if changed
         if: ${{ !cancelled() }}
