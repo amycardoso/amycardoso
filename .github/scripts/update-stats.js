@@ -114,10 +114,13 @@ async function languageShares(commits) {
   }
 
   const sum = Object.values(totals).reduce((a, b) => a + b, 0);
-  return Object.entries(totals)
+  const top = Object.entries(totals)
     .sort((a, b) => b[1] - a[1])
     .slice(0, LANG_COUNT)
     .map(([name, w]) => ({ name: name.toLowerCase(), pct: Math.round((w / sum) * 100) }));
+  // Everything past the top languages, so the legend adds up to 100%
+  const rest = 100 - top.reduce((a, l) => a + l.pct, 0);
+  return rest > 0 ? [...top, { name: 'other', pct: rest }] : top;
 }
 
 async function sketchStats() {
@@ -156,22 +159,23 @@ function renderSvg({ hours, langs, sketches }, t) {
   <g>${bars}</g>
   <text x="0" y="72" ${font} font-size="11" fill="${t.text}">peak ${String(peak).padStart(2, '0')}h · ${peakLabel(peak)}</text>`;
 
-  // Column 2 — languages, stacked bar + legend
+  // Column 2 — languages, stacked bar + legend (the 'other' row takes the muted color)
+  const color = i => t.accents[i] || t.muted;
   let x = 0;
   const segs = langs.map((l, i) => {
     const w = (l.pct / 100) * 170;
-    const r = `<rect x="${x.toFixed(1)}" y="24" width="${Math.max(w - 2, 1).toFixed(1)}" height="6" rx="2" fill="${t.accents[i]}"/>`;
+    const r = `<rect x="${x.toFixed(1)}" y="22" width="${Math.max(w - 2, 1).toFixed(1)}" height="6" rx="2" fill="${color(i)}"/>`;
     x += w;
     return r;
   }).join('');
   const legend = langs.map((l, i) =>
-    `<text x="0" y="${46 + i * 13}" ${font} font-size="11" fill="${t.text}"><tspan fill="${t.accents[i]}">●</tspan> ${esc(l.name)}</text>` +
-    `<text x="170" y="${46 + i * 13}" ${font} font-size="10" fill="${t.muted}" text-anchor="end">${l.pct}%</text>`
+    `<text x="0" y="${38 + i * 12}" ${font} font-size="11" fill="${t.text}"><tspan fill="${color(i)}">●</tspan> ${esc(l.name)}</text>` +
+    `<text x="170" y="${38 + i * 12}" ${font} font-size="10" fill="${t.muted}" text-anchor="end">${l.pct}%</text>`
   ).join('');
   const col2 = `
   <g transform="translate(205,0)">
     ${caption(0, 'LANGUAGES · 12MO')}
-    <rect x="0" y="24" width="170" height="6" rx="2" fill="${t.track}"/>
+    <rect x="0" y="22" width="170" height="6" rx="2" fill="${t.track}"/>
     ${segs}
     ${legend}
   </g>`;
