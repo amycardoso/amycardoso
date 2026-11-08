@@ -6,6 +6,9 @@ const fs = require('fs');
 const USER         = 'amycardoso';
 const MANIFEST_URL = 'https://raw.githubusercontent.com/amycardoso/creative-coding/main/manifest.json';
 const TOKEN        = process.env.GH_STATS_TOKEN || process.env.GITHUB_TOKEN;
+// Orgs whose repos count too, each with its own fine-grained token (one token reaches one owner);
+// any other org I belong to stays out
+const ORG_TOKENS   = { reformasimples: process.env.GH_STATS_ORG_TOKEN };
 const TZ           = 'America/Sao_Paulo';
 const OUT_DIR      = 'assets/stats';
 const LANG_COUNT   = 3;
@@ -18,11 +21,11 @@ const THEMES = {
   light: { text: '#1f2328', muted: '#57606a', track: '#d0d7de', accents: ['#c2185b', '#5b21b6', '#0891b2'] },
 };
 
-async function gh(path, { allowMissing = false } = {}) {
+async function gh(path, { allowMissing = false, token = TOKEN } = {}) {
   const res = await fetch(`https://api.github.com/${path}`, {
     headers: {
       Accept: 'application/vnd.github+json',
-      ...(TOKEN && { Authorization: `Bearer ${TOKEN}` }),
+      ...(token && { Authorization: `Bearer ${token}` }),
     },
   });
   // 403/404/409: repo not visible to this token, or empty repo
@@ -42,7 +45,7 @@ async function ghPages(path, opts) {
   return items;
 }
 
-// Commits from the last 12 months, as { date, repo }
+// Commits from the last 12 months, as { date, repo, token }
 async function fetchCommits() {
   const since = new Date(Date.now() - 365 * 864e5);
   return process.env.GH_STATS_TOKEN ? commitsByRepo(since) : commitsBySearch(since);
@@ -51,12 +54,21 @@ async function fetchCommits() {
 // With a personal token: walk my repos one by one, so private ones count too
 // (commit search leaves private repos out for fine-grained tokens)
 async function commitsByRepo(since) {
-  const repos = (await ghPages('user/repos?affiliation=owner,collaborator,organization_member'))
-    .filter(r => !r.fork && new Date(r.pushed_at) >= since);
+  const sources = [{
+    repos: (await ghPages('user/repos?affiliation=owner,collaborator,organization_member'))
+      .filter(r => r.owner.type !== 'Organization'),
+    token: TOKEN,
+  }];
+  for (const [org, token] of Object.entries(ORG_TOKENS)) {
+    if (token) sources.push({ repos: await ghPages(`orgs/${org}/repos?type=all`, { token }), token });
+  }
+
   const commits = [];
-  for (const repo of repos) {
-    const list = await ghPages(`repos/${repo.full_name}/commits?author=${USER}&since=${since.toISOString()}`, { allowMissing: true });
-    for (const c of list) commits.push({ date: c.commit.author.date, repo: repo.full_name });
+  for (const { repos, token } of sources) {
+    for (const repo of repos.filter(r => !r.fork && new Date(r.pushed_at) >= since)) {
+      const list = await ghPages(`repos/${repo.full_name}/commits?author=${USER}&since=${since.toISOString()}`, { allowMissing: true, token });
+      for (const c of list) commits.push({ date: c.commit.author.date, repo: repo.full_name, token });
+    }
   }
   return commits;
 }
@@ -83,11 +95,15 @@ function hourHistogram(commits) {
 // Each repo's language mix, weighted by how many of my commits landed there
 async function languageShares(commits) {
   const perRepo = {};
-  for (const c of commits) perRepo[c.repo] = (perRepo[c.repo] || 0) + 1;
+  const tokens = {};
+  for (const c of commits) {
+    perRepo[c.repo] = (perRepo[c.repo] || 0) + 1;
+    tokens[c.repo] = c.token;
+  }
 
   const totals = {};
   for (const [repo, count] of Object.entries(perRepo)) {
-    const langs = await gh(`repos/${repo}/languages`);
+    const langs = await gh(`repos/${repo}/languages`, { token: tokens[repo] });
     const kept = Object.entries(langs).filter(([name]) => !IGNORED_LANGS.has(name));
     const bytes = kept.reduce((sum, [, b]) => sum + b, 0);
     if (!bytes) continue;
